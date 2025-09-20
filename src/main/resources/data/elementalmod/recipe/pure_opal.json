@@ -1,0 +1,13 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "category" : "building",
+  "ingredients" : [
+    {
+      "item" : "elementalmod:pure_opal_block"
+    }
+  ],
+  "result" : {
+    "count" : 9,
+    "id" : "elementalmod:pure_opal"
+  }
+}

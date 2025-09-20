@@ -1,0 +1,18 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key" : {
+    "#" : {
+      "item" : "elementalmod:pure_emerald"
+    }
+  },
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "result" : {
+    "count" : 1,
+    "id" : "elementalmod:pure_emerald_block"
+  }
+}

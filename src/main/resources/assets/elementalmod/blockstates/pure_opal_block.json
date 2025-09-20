@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "elementalmod:block/pure_opal_block"
+    }
+  }
+}

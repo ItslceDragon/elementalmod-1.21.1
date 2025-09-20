@@ -1,0 +1,6 @@
+{
+  "parent" : "minecraft:block/cube_all",
+  "textures" : {
+    "all" : "elementalmod:block/pure_sapphire_ore"
+  }
+}

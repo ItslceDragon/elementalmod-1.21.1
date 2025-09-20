@@ -1,0 +1,21 @@
+{
+  "item.elementalmod.pure_amethyst" : "Pure Amethyst",
+  "item.elementalmod.pure_emerald" : "Pure Emerald",
+  "item.elementalmod.pure_opal" : "Pure Opal",
+  "item.elementalmod.pure_ruby" : "Pure Ruby",
+  "item.elementalmod.pure_sapphire" : "Pure Sapphire",
+
+  "block.elementalmod.pure_amethyst_block" : "Block of Pure Amethyst",
+  "block.elementalmod.pure_emerald_block" : "Block of Pure Emerald",
+  "block.elementalmod.pure_opal_block" : "Block of Pure Opal",
+  "block.elementalmod.pure_ruby_block" : "Block of Pure Ruby",
+  "block.elementalmod.pure_sapphire_block" : "Block of Pure Sapphire",
+
+  "block.elementalmod.pure_amethyst_ore" : "Pure Amethyst Ore",
+  "block.elementalmod.pure_emerald_ore" : "Pure Emerald Ore",
+  "block.elementalmod.pure_opal_ore" : "Pure Opal Ore",
+  "block.elementalmod.pure_ruby_ore" : "Pure Ruby Ore",
+  "block.elementalmod.pure_sapphire_ore" : "Pure Sapphire Ore",
+
+  "itemgroup.elementalmod_items" : "Elemental Mod Items"
+}
