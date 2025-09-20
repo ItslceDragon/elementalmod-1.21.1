@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "elementalmod",
+	"version": "${version}",
+	"name": "elementalmod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Gremi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/elementalmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.gremi.elementalmod.ElementalMod"
+		],
+		"fabric-datagen": [
+          "net.gremi.elementalmod.ElementalModDataGenerator"
+		],
+        "client": [
+          "net.gremi.elementalmod.ElementalModClient"
+        ]
+	},
+	"mixins": [
+		"elementalmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
