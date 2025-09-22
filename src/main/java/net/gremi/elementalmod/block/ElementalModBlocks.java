@@ -1,13 +1,11 @@
 package net.gremi.elementalmod.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.gremi.elementalmod.ElementalMod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -36,6 +34,11 @@ public class ElementalModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block PURE_SAPPHIRE_ORE = registerBlock("pure_sapphire_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+    public static final Block VOID_DEBRIS = registerBlock("void_debris",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -17,5 +17,10 @@
   "block.elementalmod.pure_ruby_ore" : "Pure Ruby Ore",
   "block.elementalmod.pure_sapphire_ore" : "Pure Sapphire Ore",
 
+  "item.elementalmod.enderite_ingot" : "Enderite Ingot",
+  "item.elementalmod.enderite_scrap" : "Enderite Scrap",
+  "block.elementalmod.enderite_block" : "Enderite Block",
+  "block.elementalmod.void_debris" : "Void Debris",
+
   "itemgroup.elementalmod_items" : "Elemental Mod Items"
 }

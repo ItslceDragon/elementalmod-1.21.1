@@ -33,6 +33,11 @@ public class ElementalModItemGroups {
                 entries.add(ElementalModBlocks.PURE_OPAL_ORE);
                 entries.add(ElementalModBlocks.PURE_RUBY_ORE);
                 entries.add(ElementalModBlocks.PURE_SAPPHIRE_ORE);
+
+                entries.add(ElementalModItems.ENDERITE_INGOT);
+                entries.add(ElementalModItems.ENDERITE_SCRAP);
+                entries.add(ElementalModBlocks.ENDERITE_BLOCK);
+                entries.add(ElementalModBlocks.VOID_DEBRIS);
             }).build());
 
     public static void registerItemGroups() {
