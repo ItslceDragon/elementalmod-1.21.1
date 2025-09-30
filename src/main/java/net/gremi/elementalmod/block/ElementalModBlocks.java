@@ -14,15 +14,15 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ElementalModBlocks {
     public static final Block PURE_AMETHYST_BLOCK = registerBlock("pure_amethyst_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block PURE_EMERALD_BLOCK = registerBlock("pure_emerald_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block PURE_OPAL_BLOCK = registerBlock("pure_opal_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block PURE_RUBY_BLOCK = registerBlock("pure_ruby_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block PURE_SAPPHIRE_BLOCK = registerBlock("pure_sapphire_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.NETHERITE)));
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block PURE_AMETHYST_ORE = registerBlock("pure_amethyst_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));

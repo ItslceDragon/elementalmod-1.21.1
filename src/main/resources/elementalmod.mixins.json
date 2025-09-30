@@ -3,7 +3,8 @@
 	"package": "net.gremi.elementalmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+        "ShieldItemRepairMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
